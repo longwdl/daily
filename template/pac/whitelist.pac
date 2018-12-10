@@ -2,7 +2,7 @@
 // Update: ___UPDATE_TIME_PLACEHOLDER___
 //
 
-const proxy = "SOCKS5 127.0.0.1:1080;";
+const proxy = "<%=proto%> <%=addr%>:<%=port%>;";
 const direct = "DIRECT;";
 
 const hasOwnProperty = Object.hasOwnProperty;
